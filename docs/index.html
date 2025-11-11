@@ -205,19 +205,19 @@
         }
 
         /* --- 7. Highlights Section (Split) --- */
-        #highlights {
+        #highlights, #camping {
             display: grid;
             grid-template-columns: 2fr 1fr;
             text-align: left;
             padding: 0;
             min-height: 50vh;
         }
-        .highlight-image {
-            background-image: url('https://images.unsplash.com/photo-1617260555986-538622f42a54?fit=crop&w=1000&q=80'); /* Himba Woman / Culture */
+        .highlight-image{
             background-size: cover;
             background-position: center;
             filter: saturate(1.5);
         }
+     
         .highlight-content {
             padding: 80px 5%;
             background-color: var(--color-deep-blue);
@@ -316,7 +316,7 @@
         /* --- 10. Footer --- */
         .cta-footer {
             padding: 80px 5%;
-            background-color: var(--color-deep-blue);
+            background-color: #31694E;
             text-align: center;
         }
         .cta-footer h2 {
@@ -581,6 +581,21 @@
                 </ul>
             </div>
         </div>
+    </section>
+    <section id="camping">
+        <div class="highlight-content animate-in" style="background-image: url('camp.jpeg'); background-size: 100%; text-shadow: 1px 1px 1px #000000">
+            <h2>Camping 4x4 Namibia</h2>
+	    <img src="safari.jpg">
+            <p style="margin-bottom: 30px; color: var(--color-text-light);">Toyota Hilux D/C 4x4 GD6 Automatic</p>
+	    <h3>3 To 4 Pax Camp</h3>
+            <ul class="highlights-list">
+                <li class="animate-in"><h4><img src="icons/first-aid-kit.png"> Full Medical Aid Kit </h4></li>
+                <li class="animate-in"><h4><img src="icons/pressure-gauge.png"> Electronic Tire Pressure Monitor</h4></li>
+                <li class="animate-in"><h4><img src="icons/car.png"> Tracking Device for your safety</h4></li>
+                <li class="animate-in"><h4><img src="icons/jumper.png"> Jumper Cables </h4></li>
+            </ul>
+        </div>
+        <div class="highlight-image animate-in" style="border-right: 8px solid var(--color-primary-neon);"></div>
     </section>
 
     <footer id="contact" class="cta-footer">
